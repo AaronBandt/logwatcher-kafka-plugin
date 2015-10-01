@@ -1,14 +1,16 @@
 # logwatcher-kafka-plugin
-Plugin for LogWatcher to send Log Lines to Kafka
-# Requirements
-Requires:
-LogWatcher - https://github.com/CityGrid/logwatcher
-kafka-python - https://github.com/mumrah/kafka-python
+Plugin for LogWatcher to send Log Lines to a Kafka Topic
 
-# Install
+## Requirements
+Requires:
+
+* [LogWatcher](https://github.com/CityGrid/logwatcher)
+* [kafka-python](https://github.com/mumrah/kafka-python)
+
+## Install
     pip install logwatcher-kafka-plugin
 
-# Use
+## Use
 Add the following option to your logwatcher ini file to enable the plugin
     
     plugins: kafka_logger
