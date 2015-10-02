@@ -22,7 +22,7 @@ with open(os.path.join(here, 'CHANGELOG.rst')) as f:
     CHANGELOG = f.read()
 
 requires = [
-    'LogWatcher==1.0',
+    'LogWatcher',
     'kafka-python==0.9.4',
     ]
 
